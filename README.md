@@ -3,8 +3,7 @@
 
 <p> O projeto tem como objetivo principal o desenvolvimento dos conceitos básicos da teoria de tratamento estatístico de séries temporais, além de preparar o terreno para a análise, identificação e previsão de uma série temporal.</p> 
 
-<p>A time series giving the monthly totals of accidental deaths in the USA. The values for the first six months of 1979 are 7798 7406 8363 8460 9217 9316</p>
-USAccDeaths: Accidental Deaths in the US
+<p>O projeto utiliza a base de dados USAccDeaths: Accidental Deaths in the US 1973-1978, a qual é uma série temporal que fornece os totais mensais de mortes acidentais nos EUA. Os valores foram tirados  de P. J. Brockwell and R. A. Davis (1991) Time Series: Theory and Methods. Springer, New York.</p>
 
 <p>Para mais informações, basta procurar pelo arquivo .PDF na pasta <a href = 'https://github.com/brunereduardo/Time_Series_USP/tree/master/Documents'>Documents</a> e a seguir temos os seguintes pontos estudados para este projeto de imersão em Séries Temporais com R: </p>
  <ul style="list-style-type:disc;">
@@ -22,7 +21,7 @@ USAccDeaths: Accidental Deaths in the US
 
 
 ## Instruções para Compilar o Codigo-Fonte
-Para compilar o programa é apenas necessário ter acesso à linguagem um Jupyter Notebook, ou Google Colab, e rodar as células para obter os resultados. Os dados para a maioria das resoluções se encontram na pasta Data de cada projeto. Para processamentos mais ágeis, um dica seria usar GPUS em vez da CPU.
+Para compilar o programa é apenas necessário ter acesso à linguagem R e à IDE RStudio e rodar as linhas de código do projeto para obter os resultados.
 
 <p><b>O projeto pertence ao seguinte desenvolvedor:</b></p>
 <a href="https://github.com/brunereduardo">Bruner Eduardo Augusto Albrecht</a>
