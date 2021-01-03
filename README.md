@@ -3,7 +3,7 @@
 
 <p> O projeto tem como objetivo principal o desenvolvimento dos conceitos básicos da teoria de tratamento estatístico de séries temporais, preparar o terreno para a análise, identificação e previsão de uma série temporal.</p>
 
-<p>Para mais informações, basta procurar pelo arquivo .PDF na pasta de cada projeto e a seguir temos os seguintes pontos estudados: </p>
+<p>Para mais informações, basta procurar pelo arquivo .PDF na pasta <a href = 'https://github.com/brunereduardo/Time_Series_USP/tree/master/Documents'>Documents</a> e a seguir temos os seguintes pontos estudados para este projeto de imersão em Séries Temporais com R: </p>
  <ul style="list-style-type:disc;">
   <li>Séries temporais: conceito, suavização, tendência, sazonalidade, alisamento exponencial</li>
   <li>Séries estacionárias</li>
