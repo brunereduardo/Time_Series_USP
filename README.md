@@ -1,5 +1,5 @@
 # Time_series_USP
-#### [English version here!](google.com)
+#### [English version here!](https://github.com/brunereduardo/Time_Series_USP/blob/master/Documents/README.md)
 
 <p> O projeto tem como objetivo principal o desenvolvimento dos conceitos básicos da teoria das redes complexas com a apresentação das ferramentas fundamentais para a representação, modelagem e caracterização e classificação de redes complexas. Os conceitos são aplicados na análise da Internet, da World Wide Web, da linguagem, da sociedade, de cadeias alimentares, das interações celulares e de malhas rodoviárias.</p>
 
