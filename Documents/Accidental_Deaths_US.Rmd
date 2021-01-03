@@ -1,0 +1,135 @@
+---
+title: "Accidental Deaths in the US 1973-1978"
+author: "Bruner Eduardo Augusto - 9435846"
+date: "01/12/2019"
+
+documentclass: article
+output:
+  pdf_document: default
+  word_document: default
+fig_width: 9
+fontsize: 12pt
+geometry: margin=0.75in
+header-includes:
+- \usepackage {amsmath}
+- \usepackage{setspace}\singlespacing
+- \pagenumbering{gobble}
+- \usepackage{titling}
+- \title{Trabalho de Séries Temporais}\singlespacing
+fig_height: 5
+classoption: a4paper
+---
+
+\newpage
+
+ 
+\pagenumbering{arabic} 
+
+
+\newcommand{\mar}{\hspace{.3cm}}
+
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+## Accidental Deaths in the US 1973-1978
+
+
+.
+\mar Bibliotecas necessarias para o projeto 
+```{r}
+require(tseries)
+require(FitAR)
+require(forecast)
+require(FitAR)
+```
+
+\mar De princípio, vamos conhecer os dados da série que já está dentro do R.  
+```{r}
+USAccDeaths
+```
+\mar  Essa séire temporal nos dá o total mensal de mortes acidentais nos Estados Unidos da Ameria durante os anos de 1973 até 1978.
+\mar Por conseguinte, traçanmos a série temporal acima:
+
+```{r}
+usaTimes<-ts(USAccDeaths, frequency = 12, start = c(1973,1))
+plot.ts(usaTimes)
+```
+
+
+```{r}
+compUsaTime.ts = decompose(usaTimes, type="mult")
+plot(compUsaTime.ts)
+```
+
+
+```{r}
+usa.Trend <- compUsaTime.ts$trend 
+usa.Seasonal <- compUsaTime.ts$seasonal
+usa.Random <- compUsaTime.ts$random
+```
+
+
+```{r}
+x = usaTimes- compUsaTime.ts$seasonal
+usaTimes_stationary <- diff(x, differences=1)
+plot(usaTimes_stationary)
+```
+
+
+```{r}
+layout(1:2)
+acf(usaTimes_stationary,lag.max = 40)
+pacf(usaTimes_stationary,lag.max = 40)
+```
+
+
+
+```{r}
+fitARIMA = arima(usaTimes, order=c(1,1,1),seasonal= list(order = c(1,0,0), period = 12),method="ML")
+fitARIMA
+```
+
+
+```{r}
+res=fitARIMA$residuals
+plot(res)
+```
+
+
+```{r}
+layout(1:2)
+acf(res,lag.max = 40)
+pacf(res,lag.max = 40)
+```
+
+
+```{r}
+Box.test(res,type="Ljung-Box")
+```
+
+
+```{r}
+model=auto.arima(usaTimes, trace=TRUE)
+model
+```
+
+
+```{r}
+plot(model$residuals)
+```
+
+
+```{r}
+Box.test(model$residuals,type="Ljung-Box")
+```
+
+
+```{r}
+predicted_values = forecast(model,h=100, level=c(99.5))
+plot(predicted_values)
+
+```
+
