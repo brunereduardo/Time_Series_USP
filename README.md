@@ -19,7 +19,7 @@
 
 
 ## Instruções para Compilar o Codigo-Fonte
- Para compilar os programas é apenas necessário ter acesso a um Jupyter Notebook, ou Google Colab, e rodar as células para obter os resultados. Os dados para a maioria das resoluções se encontram na pasta Data de cada projeto. Para processamentos mais ágeis, um dica seria usar GPUS em vez da CPU.
+Para compilar o programa é apenas necessário ter acesso à linguagem um Jupyter Notebook, ou Google Colab, e rodar as células para obter os resultados. Os dados para a maioria das resoluções se encontram na pasta Data de cada projeto. Para processamentos mais ágeis, um dica seria usar GPUS em vez da CPU.
 
 <p><b>O projeto pertence ao seguinte desenvolvedor:</b></p>
 <a href="https://github.com/brunereduardo">Bruner Eduardo Augusto Albrecht</a>
