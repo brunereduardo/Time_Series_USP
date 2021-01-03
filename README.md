@@ -1,7 +1,7 @@
 # Time_series_USP
 #### [English version here!](https://github.com/brunereduardo/Time_Series_USP/blob/master/Documents/README.md)
 
-<p> O projeto tem como objetivo principal o desenvolvimento dos conceitos básicos da teoria de tratamento estatístico de séries temporais, preparar o terreno para a análise, identificação e previsão de uma série temporal.</p>
+<p> O projeto tem como objetivo principal o desenvolvimento dos conceitos básicos da teoria de tratamento estatístico de séries temporais, preparar o terreno para a análise, identificação e previsão de uma série temporal.</p> FALAR SOBRE O PROJETO EM SI -> US DEATH TIME SERIES
 
 <p>Para mais informações, basta procurar pelo arquivo .PDF na pasta <a href = 'https://github.com/brunereduardo/Time_Series_USP/tree/master/Documents'>Documents</a> e a seguir temos os seguintes pontos estudados para este projeto de imersão em Séries Temporais com R: </p>
  <ul style="list-style-type:disc;">
