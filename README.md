@@ -28,7 +28,7 @@
 </p>
 
 <h4 align="center"> 
-	🚧  Construído durante a matéria de Teoria da Computação e Compiladores 🚧 Parte otimizadora do compilador faltante🚧
+	🚧  Construído durante a matéria de Série Temporais da ênfase de Ciência de Dados🚧
 </h4>
 
 ### Pré-requisitos
