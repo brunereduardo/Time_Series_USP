@@ -38,13 +38,13 @@ Para compilar o programa é apenas necessário ter acesso à linguagem R e à ID
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/brunereduardo/Compiler_Py_USP
+$ git clone https://github.com/brunereduardo/Time_Series_USP
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd Compiler_Py_USP/Main Programs
+$ cd Time_Series_USP
 
-# Execute a aplicação com o seguinte comando para injetar qualquer caso de test e compare a saída com os arquivos .out
-$ python3  compiler.py < Compiler_Py_USP/Tests/nome_do_arquivo_de_entrada_test.txt 
+# Execute a aplicação com o seguinte comando 
+$ Rscript 9435846_Bruner_UsaTime.R
 
 ```
 
