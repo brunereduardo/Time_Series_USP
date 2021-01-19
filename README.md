@@ -50,15 +50,17 @@ $ Rscript 9435846_Bruner_UsaTime.R
 
 ### 🚀 Tecnologias
 
-A seguintes ferramenta e bibliotecas foram usadas na construção do projeto:
+Os seguintes pacotes e biblioteca foram usadas na construção do projeto:
 
-- JFlap
-- sys.py
-- pprint.py 
+- tseries
+- FitAR
+- forecast
+- FitAR
+- USAccDeaths
 
 ### Licença
 
-<p>Este projeto está sob a licença MIT, para mais informações procurar pelo arquivo <a href = "https://github.com/brunereduardo/Compiler_Py_USP/blob/master/LICENSE">LICENSE</a></p>
+<p>Este projeto está sob a licença MIT, para mais informações procurar pelo arquivo <a href = "https://github.com/brunereduardo/Time_Series_USP/blob/master/LICENSE">LICENSE</a></p>
 
 ### Autores
 Implementado e criado com ❤️ por [Bruner Eduardo Augusto Albrecht](https://github.com/brunereduardo)👋🏽
