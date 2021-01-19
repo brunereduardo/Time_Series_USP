@@ -1,7 +1,7 @@
 # Time_series_USP
 
 
-![banner](https://derrickmartins.files.wordpress.com/2015/11/time-series-analysis.png)
+![banner](https://limnonews.files.wordpress.com/2014/09/imagem11.png)
 
 #### [English version here!](https://github.com/brunereduardo/Time_Series_USP/blob/master/Documents/README.md)
 
