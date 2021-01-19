@@ -1,4 +1,8 @@
 # Time_series_USP
+
+
+![banner](https://derrickmartins.files.wordpress.com/2015/11/time-series-analysis.png)
+
 #### [English version here!](https://github.com/brunereduardo/Time_Series_USP/blob/master/Documents/README.md)
 
 ## Descrição do Projeto
@@ -32,7 +36,7 @@
 </h4>
 
 ### Pré-requisitos
-Para compilar o programa é apenas necessário ter acesso à linguagem R e à IDE RStudio e rodar as linhas de código do projeto para obter os resultados.
+Para compilar o programa é apenas necessário ter acesso à linguagem R e à IDE RStudio e rodar as linhas de código do projeto para obter os resultados. Ou Seguir os passos abaixos.
 
 ### Rodando a Aplicação 🎲
 
