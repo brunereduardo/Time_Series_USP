@@ -24,8 +24,8 @@
 </ul>  
 
 <p align="center">
-<a href="#Descrição-do-Projeto">Project description</a> •  
-<a href="#Pré-requisitos">Prerequisites</a> •	
+<a href="#Project description">Project description</a> •  
+<a href="#Prerequisites">Prerequisites</a> •	
 <a href="#License">License</a> • 
 <a href="#Author">Author</a>
 </p>
