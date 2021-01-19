@@ -24,7 +24,7 @@
 <a href="#Descrição-do-Projeto">Descrição do Projeto</a> •  
 <a href="#Pré-requisitos">Pré-requisitos</a> •	
 <a href="#Licença">Licença</a> • 
-<a href="#Autores">Autores</a>
+<a href="#Autor">Autor</a>
 </p>
 
 <h4 align="center"> 
@@ -62,5 +62,5 @@ Os seguintes pacotes e biblioteca foram usadas na construção do projeto:
 
 <p>Este projeto está sob a licença MIT, para mais informações procurar pelo arquivo <a href = "https://github.com/brunereduardo/Time_Series_USP/blob/master/LICENSE">LICENSE</a></p>
 
-### Autores
+### Autor
 Implementado e criado com ❤️ por [Bruner Eduardo Augusto Albrecht](https://github.com/brunereduardo)👋🏽
